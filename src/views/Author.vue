@@ -1,10 +1,27 @@
 <template>
   <v-container fluid fill-height class="ma-0 pa-0">
     <v-row class="fill-height">
-      <v-col class="d-flex align-center pa-0" cols="12" sm="12" md="3" lg="4" xl="4" >
-        <img class="cover" src="../assets/images/Antoine-de-Saint-Exupery.png" />
+      <v-col
+        class="d-flex align-center pa-0"
+        cols="12"
+        sm="12"
+        md="3"
+        lg="4"
+        xl="4"
+      >
+        <img
+          class="cover"
+          src="../assets/images/Antoine-de-Saint-Exupery.png"
+        />
       </v-col>
-      <v-col class="ma-auto d-flex justify-center" cols="12" sm="12" md="9" lg="8" xl="8" >
+      <v-col
+        class="ma-auto d-flex justify-center"
+        cols="12"
+        sm="12"
+        md="9"
+        lg="8"
+        xl="8"
+      >
         <v-container class="fill-content paddingText">
           <v-row class="mb-10">
             <div class="tAuthorName">Antoine de Saint Exupéry</div>
@@ -41,13 +58,13 @@
   width: fit-content;
 }
 
-.cover{
+.cover {
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
 
-.paddingText{
+.paddingText {
   padding: 5% 20% 15% 20%;
 }
 

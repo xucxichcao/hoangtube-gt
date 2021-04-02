@@ -1,15 +1,17 @@
 <template>
   <v-container fluid fill-height>
-    <v-img src="../assets/images/Planet.png" max-height="90vh" contain></v-img>
+    <v-img
+      src="../assets/images/Comp-1_1.gif"
+      max-height="90vh"
+      contain
+    ></v-img>
     <v-container
       tabindex="0"
-      v-on:click="mouseclick"
-      v-on:mouseleave="mouseleave"
       class="menuContainer d-flex justify-center align-center"
     >
       <div class="absoluteHolder">
         <div class="border-1 d-flex justify-center align-center">
-          <router-link to="/blog">
+          <router-link to="/blogs">
             <div class="circle mid-left">
               <div class="textDiv under-left">Blog</div>
             </div>

@@ -76,6 +76,11 @@
   position: absolute;
   bottom: 0%;
   right: 0%;
+  opacity: 0.7;
+  transition: 0.3s opacity linear;
+}
+.planet01:hover {
+  opacity: 1;
 }
 
 .planet01 img {
@@ -87,6 +92,12 @@
   position: absolute;
   bottom: 0%;
   left: -12%;
+  opacity: 0.7;
+  transition: 0.3s opacity linear;
+}
+
+.planet03:hover {
+  opacity: 1;
 }
 
 .planet03 img {
@@ -96,6 +107,12 @@
 
 .planet04 {
   position: absolute;
+  opacity: 0.7;
+  transition: 0.3s opacity linear;
+}
+
+.planet04:hover {
+  opacity: 1;
 }
 
 .planet04 img {
@@ -107,6 +124,12 @@
   position: absolute;
   top: 0%;
   left: 0%;
+  opacity: 0.7;
+  transition: 0.3s opacity linear;
+}
+
+.planet02:hover {
+  opacity: 1;
 }
 
 .planet02 img {
